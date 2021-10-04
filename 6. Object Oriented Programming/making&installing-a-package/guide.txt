@@ -1,0 +1,18 @@
+To activate the virtual environment, venv:
+1) go to venv\Scripts 
+2) type activate
+
+To create the package: 
+1) cd 3a_python_package
+2) pip install 
+
+If everything is set up correctly, pip installs the distributions package into the workspace.
+
+To test the package
+1) start Python interpreter from the terminal by entering: python
+2) within the Python interpreter, you can use the distributions package by entering the following:
+
+2a) from distributions import Gaussian
+2b) gaussian_one = Gaussian(25, 2)
+2c) gaussian_one.mean
+2d) gaussian_one + gaussian_one
